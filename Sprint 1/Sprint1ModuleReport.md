@@ -71,7 +71,7 @@ Note that `IM` stands for Individual Module and `TP` stands for Team Project.
 
 |Date      |Start Time|IM or TP|Description                                 |Hours:Minutes|
 |----------|----------|--------|--------------------------------------------|-------------|
-|          |          |        |                                            |             |
+|  4/30    |  10:40   |   IM   |    Set up and Syntax learning              |    1:00     |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
