@@ -72,10 +72,17 @@ Note that `IM` stands for Individual Module and `TP` stands for Team Project.
 |Date      |Start Time|IM or TP|Description                                 |Hours:Minutes|
 |----------|----------|--------|--------------------------------------------|-------------|
 |  4/30    |  10:40   |   IM   |    Set up and Syntax learning              |    1:00     |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+|  5/1     |  10:25   |   TP   |    Setting up software                     |    1:02     |
+|  5/1     |  10:58   |   IM   |    Syntax learning                         |    1:07     |
+|  5/2     |  1:58    |   TP   |    Team Planning and Roles                 |    1:09     |
+|  5/2     |  11:25   |   IM   |    Project Planning                        |    0:25     |
+|  5/3     |  8:02    |   IM   |    Programming ideas                       |    0:15     |
+|  5/3     |  10:13   |   IM   |    Following tutorial                      |    1:10     |
+|  5/6     |  10:15   |   TP   |    Learning JavaScript                     |    1:00     |
+|  5/7     |  1:55    |   TP   |    Adding changes on Github/Presentation   |    1:07     |
+|  5/8     |  10:55   |   IM   |    Working on project/gradle               |    1:51     |
+|  5/9     |  8:45    |   IM   |    Working on json implementation          |    1:35     |
+|  5/10    |  6:15    |   IM   |    Continuing json implementation          |    1:02     |
 |          |          |        |                                            |             |
 
 _Note: Add more rows as needed._
