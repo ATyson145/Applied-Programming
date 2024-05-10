@@ -18,11 +18,12 @@ public class ExpenseTracker {
         loadExpenses();
     }
 
-    private void loadExpenses() {
+    public void loadExpenses() {
         try {
             if (file.exists()) {
                 expenses = objectMapper.readValue(file, new TypeReference<List<Expense>>() {
                 });
+                
             }
         }
         catch (IOException e) {

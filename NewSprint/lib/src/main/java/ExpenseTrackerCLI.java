@@ -12,7 +12,7 @@ public class ExpenseTrackerCLI {
     public static void main(String[] args) {
         boolean running = true;
         while (running) {
-            System.out.println("Expense Tracker Menu:");
+            System.out.println("Expense Tracker Menu!:");
             System.out.println("1. Add New Expense");
             System.out.println("2. View Expenses");
             System.out.println("3. Quit");
