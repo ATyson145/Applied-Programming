@@ -83,7 +83,7 @@ Note that `IM` stands for Individual Module and `TP` stands for Team Project.
 |  5/8     |  10:55   |   IM   |    Working on project/gradle               |    1:51     |
 |  5/9     |  8:45    |   IM   |    Working on json implementation          |    1:35     |
 |  5/10    |  6:15    |   IM   |    Continuing json implementation          |    1:02     |
-|          |          |        |                                            |             |
+|  5/10    |  11:30   |   IM   |    Fixing errors and cleaning up code      |    1:42     |
 
 _Note: Add more rows as needed._
 
@@ -93,28 +93,36 @@ _Note: Add more rows as needed._
 This section should be filled out at the end of the Sprint and submitted.
 
 1. Put your GitHub link for your demonstration software here: 
+https://github.com/ATyson145/Applied-Programming/tree/main/Sprint1
 
 2. Put your YouTube link for your code walkthrough and demo video here:
+https://www.youtube.com/watch?v=sTFChMu6JOg
 
 3. Complete the following checklist by either indicating "Yes" or "No". If you indicate "No" then provide an explanation of why beneath the table.
 
 |Question                                                    |Response|
 |------------------------------------------------------------|--------|
-|Are the links above public and working?                     |        |
-|Did you complete all the unique requirements for the module?|        |
-|Did you write at least 100 lines of code?                   |        |
-|Did you fully complete the readme.md file?                  |        |
-|Did you put the readme.md file in GitHub in the top folder? |        |
+|Are the links above public and working?                     |  Yes   |
+|Did you complete all the unique requirements for the module?|  Yes   |
+|Did you write at least 100 lines of code?                   |  Yes   |
+|Did you fully complete the readme.md file?                  |  Yes   |
+|Did you put the readme.md file in GitHub in the top folder? |  Yes   |
 
 4. If you completed a Stretch Challenge (as shown in the Module Description document in Canvas) then describe what you did.  If you did the Choose Your Own Adventure module, then you get to decide what qualifies as a Stretch Challenge.
+Yes I did. I made sure that the program I made was able to read and write into a file, which was the first stretch challange listed in the module desc.
 
 5. Did you change your selected module during the middle of the Sprint?  If yes, then describe what you changed it to, when you changed it, and why you changed it.
+No.
 
 6. Using the log above, fill in the total hours and minutes you spent on the individual module:
 
 |Activity         |Total Hours:Minutes|
 |-----------------|-------------------|
-|Individual Module|                   |
+|Individual Module|    10:07          |
 
 7. What strategies (behavioral and technical) worked well during this Sprint?  What did not work well?  List some possible ways that you can improve next Sprint.
-
+The most effective strategy that I had coming into this sprint was writing down the progress that I had made with the project after every time I worked on
+it. Being able to reflect on what went well or not helped me stay focused in the areas of the project that I needed to work on, as well as it helped me
+to stay motivated by seeing all of the good progress made. The only thing that didn't work all that well as a strategy was trying to work on my code for
+1 hour a day. Sometimes life gets in the way of working on code, and being able to stay flexible and positive while that is happening is key. I need to
+make a new strategy in order to help me with that issue.
