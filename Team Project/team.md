@@ -79,6 +79,7 @@ This section should be filled out during the second Sprint and submitted by one 
 ### Section 2.1 - Project Scope
 
 1. Software Title:
+Lil gloomy typing tutor
 
 2. Software Description:
 
