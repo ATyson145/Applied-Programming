@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e4a1b8-85f8-448d-b49e-1b87bfbee8d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Team Project/team.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Team Project/team.md" afterDir="false" />
+    <list default="true" id="f9e4a1b8-85f8-448d-b49e-1b87bfbee8d5" name="Changes" comment="Beginning Project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bishop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chessboard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/King.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Knight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Notes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pawn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Piece.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rook.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module.md" beforeDir="false" afterPath="$PROJECT_DIR$/../module.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,28 +27,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2gQYdJ28RQLTlrVH8DvrG3lMPvC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/adamtyson/Desktop/Applied Programming/Sprint2/Chess/src/Main.kt",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.NotesKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adamtyson/Desktop/Applied Programming/Sprint2/Chess&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/adamtyson/Desktop/Applied Programming/Sprint2/Chess/src/Main.kt&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,11 +68,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715631354798</updated>
-      <workItem from="1715631355828" duration="661000" />
+      <workItem from="1715631355828" duration="3248000" />
+      <workItem from="1715650352129" duration="2494000" />
+      <workItem from="1715703663320" duration="4774000" />
     </task>
+    <task id="LOCAL-00001" summary="Beginning Project">
+      <option name="closed" value="true" />
+      <created>1715643236116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715643236116</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Beginning Project">
+      <option name="closed" value="true" />
+      <created>1715643410792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715643410792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Beginning Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning Project" />
   </component>
 </project>
