@@ -82,20 +82,30 @@ This section should be filled out during the second Sprint and submitted by one 
 Lil gloomy typing tutor
 
 2. Software Description:
+A typing tutor that helps people learn how to type faster/show their errors while typing. This typing tutor will
+also be a hub for people wanting to display their skill in typing with the Ranked mode.
 
 3. Make a list of features that you plan to include in your software by the end of Week 13.  List your features in terms of priority (highest priority items listed first):
 
-|Feature #|Description                                               |
-|---------|----------------------------------------------------------|
-|         |                                                          |
-|         |                                                          |
-|         |                                                          |
-|         |                                                          |
+| Feature #              | Description                                                                  |
+|------------------------|------------------------------------------------------------------------------|
+| Log in + Register      | Working with the database to store user info and accomplishments             |
+| Virtual Keyboard       | An image of a keyboard on our website that shows the keys the user is typing |
+| Heatmap on Keyboard    | A heatmap that shows the keys with the most errors on the virtual keyboard   |
+| Ranked mode            | A hard mode for users of the website to compete in                           |
+| Leaderboards           | Points earned during Ranked mode shown to all users                          |
+| Practice mode          | A mode where users can practice typing prompts. More helpful than Ranked     |
+| Databases for prompts  | Databases used for storing the prompts for both practice and ranked modes    |
+| Making it look pretty  | Fixing the CSS and HTML in order to make the website look presentable        |
+| Avatars for profiles   | Images for each user's profile page                                          |
+| Mobile format for site | Implementing CSS to have mobile browser use                                  |
+|                        |                                                                              |
 
 _Note: Add more rows as needed._
 
 
 4. Identify the programming languages, frameworks, and libraries you will be using:
+Firestore, HTML, CSS, Javascript, Node.JS
 
 ### Section 2.2 - Updated Team Roles
 
@@ -103,12 +113,12 @@ You can change the roles of team members if desired.  Provide the updated list o
 
 |Responsiblity                   |Team Member         |
 |--------------------------------|--------------------|
-|Conducting Meetings             |                    |
-|Maintaining Team Assignment List|                    |
-|Ensuring GitHub is Working      |                    |
-|Maintaining Documentation       |                    |
-|Create & Display Presentations  |                    |
-|Submit Team Assignments         |                    |
+|Conducting Meetings             |    Zach            |
+|Maintaining Team Assignment List|    Caleb           |
+|Ensuring GitHub is Working      |    Paul            |
+|Maintaining Documentation       |    Noah            |
+|Create & Display Presentations  |    Austin          |
+|Submit Team Assignments         |    Adam            |
 
 ## Part 3 - Results
 
@@ -129,12 +139,12 @@ This section should be filled out during Week 13.
 
 3. Referring back to the list of planned requirements in Part 2 above, make a list of all the features and their status (Completed, In Progress, Not Started).  Include in your list features that you added or attempted that were not originally planned.
 
-|Feature #|Status     |Description                                               |
-|---------|-----------|----------------------------------------------------------|
-|         |           |                                                          |
-|         |           |                                                          |
-|         |           |                                                          |
-|         |           |                                                          |
+|Feature #  |Status     |Description                                               |
+|-----------|-----------|----------------------------------------------------------|
+|           |           |                                                          |
+|           |           |                                                          |
+|           |           |                                                          |
+|           |           |                                                          |
 
 _Note: Add more rows as needed._
 

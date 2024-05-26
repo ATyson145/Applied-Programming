@@ -69,14 +69,19 @@ Record all CSE 310 work that you do on your individual module or the team projec
 
 Note that `IM` stands for Individual Module and `TP` stands for Team Project.  
 
-|Date      |Start Time|IM or TP|Description                                 |Hours:Minutes|
-|----------|----------|--------|--------------------------------------------|-------------|
-|   5/13   |   6:57   |   IM   |  Syntax learning                           |    1:08     |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+| Date | Start Time | IM or TP | Description            | Hours:Minutes |
+|------|------------|----------|------------------------|---------------|
+| 5/13 | 6:57       | IM       | Syntax learning        | 1:08          |
+| 5/14 | 10:10      | IM       | Project Setup          | 1:41          |
+| 5/14 | 1:57       | TP       | Implementing Counters  | 1:05          |
+| 5/15 | 2:55       | IM       | Continuing project     | 1:42          |
+| 5/15 | 1:02       | TP       | Updating changes       | 1:00          |
+| 5/16 | 11:30      | TP       | Updating features list | 1:05          |
+| 5/22 | 10:05      | IM       | Updating board         | 1:48          |
+| 5/55 | 11:25      | TP       | Fixing CSS             | 1:05          |
+| 5/24 | 12:45      | IM       | Fixing pieces          | 2:03          |
+| 5/24 | 11:30      | IM       | Cleaning up code       | 1:38          |
+|      |            |          |                        |               |
 
 _Note: Add more rows as needed._
 
@@ -91,22 +96,24 @@ This section should be filled out at the end of the Sprint and submitted.
 
 3. Complete the following checklist by either indicating "Yes" or "No". If you indicate "No" then provide an explanation of why beneath the table.
 
-|Question                                                    |Response|
-|------------------------------------------------------------|--------|
-|Are the links above public and working?                     |        |
-|Did you complete all the unique requirements for the module?|        |
-|Did you write at least 100 lines of code?                   |        |
-|Did you fully complete the readme.md file?                  |        |
-|Did you put the readme.md file in GitHub in the top folder? |        |
+|Question                                                    | Response |
+|------------------------------------------------------------|----------|
+|Are the links above public and working?                     | Yes      |
+|Did you complete all the unique requirements for the module?| Yes      |
+|Did you write at least 100 lines of code?                   | Yes      |
+|Did you fully complete the readme.md file?                  | Yes      |
+|Did you put the readme.md file in GitHub in the top folder? | Yes      |
 
 4. If you completed a Stretch Challenge (as shown in the Module Description document in Canvas) then describe what you did.  If you did the Choose Your Own Adventure module, then you get to decide what qualifies as a Stretch Challenge.
+I did not do a Stretch Challenge
 
 5. Did you change your selected module during the middle of the Sprint?  If yes, then describe what you changed it to, when you changed it, and why you changed it.
+No.
 
 6. Using the log above, fill in the total hours and minutes you spent on the individual module:
 
-|Activity         |Total Hours:Minutes|
-|-----------------|-------------------|
-|Individual Module|                   |
+|Activity         | Total Hours:Minutes                                     |
+|-----------------|---------------------------------------------------------|
+|Individual Module| 10 hours (on the dot. Didn't mean for that but oh well) |
 
 7. What strategies (behavioral and technical) worked well during this Sprint?  What did not work well?  List some possible ways that you can improve next Sprint.
