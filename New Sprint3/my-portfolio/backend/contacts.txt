@@ -1,0 +1,13 @@
+Name: ${name}
+Email: ${email}/nMessage: ${message}
+
+Name:Adam Tyson
+Email:tys17001@byui.edu/nMessage:Hello World!
+
+Name:Adam Tyson
+Email:dkad@gmail.com/nMessage:What's going on!
+
+Name:Adam Tyson
+Email:dalkj@dlkjan.com
+Message:DLkjaflk
+
