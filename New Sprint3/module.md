@@ -77,10 +77,7 @@ Note that `IM` stands for Individual Module and `TP` stands for Team Project.
 | 6/5  | 5:04       | IM       | Learning React                  | 1:10          |
 | 6/6  | 2:10       | IM       | Learning React/Building Website | 2:16          |
 | 6/6  | 10:30      | IM       | Building Website                | 1:41          |
-|      |            |          |                                 |               |
-|      |            |          |                                 |               |
-|      |            |          |                                 |               |
-|      |            |          |                                 |               |
+| 6/7  | 11:30      | IM       | Cleaning up website             | 3:24          |
 
 _Note: Add more rows as needed._
 
@@ -89,27 +86,38 @@ _Note: Add more rows as needed._
 This section should be filled out at the end of the Sprint and submitted.
 
 1. Put your GitHub link for your demonstration software here:
+   https://github.com/ATyson145/Applied-Programming/tree/main/New%20Sprint3
 
 2. Put your YouTube link for your code walkthrough and demo video here:
+   https://www.youtube.com/watch?v=ye0iRbUOsXc
 
 3. Complete the following checklist by either indicating "Yes" or "No". If you indicate "No" then provide an explanation of why beneath the table.
 
 | Question                                                     | Response |
 | ------------------------------------------------------------ | -------- |
-| Are the links above public and working?                      |          |
-| Did you complete all the unique requirements for the module? |          |
-| Did you write at least 100 lines of code?                    |          |
-| Did you fully complete the readme.md file?                   |          |
-| Did you put the readme.md file in GitHub in the top folder?  |          |
+| Are the links above public and working?                      | Yes      |
+| Did you complete all the unique requirements for the module? | Yes      |
+| Did you write at least 100 lines of code?                    | Yes      |
+| Did you fully complete the readme.md file?                   | Yes      |
+| Did you put the readme.md file in GitHub in the top folder?  | Yes      |
 
 4. If you completed a Stretch Challenge (as shown in the Module Description document in Canvas) then describe what you did. If you did the Choose Your Own Adventure module, then you get to decide what qualifies as a Stretch Challenge.
+   I don't know if it counts because I'm using React, but if it does, then the stretch challange that I think I made was adding more webpages onto
+   my project (I technically have 4 in total).
 
 5. Did you change your selected module during the middle of the Sprint? If yes, then describe what you changed it to, when you changed it, and why you changed it.
+   I did not.
 
 6. Using the log above, fill in the total hours and minutes you spent on the individual module:
 
 | Activity          | Total Hours:Minutes |
 | ----------------- | ------------------- |
-| Individual Module |                     |
+| Individual Module | 10:08               |
 
 7. What strategies (behavioral and technical) worked well during this Sprint? What did not work well? List some possible ways that you can improve next Sprint.
+   I think the only strategy that really worked out for me this sprint was working on the project I was was learning React. Doing that helped
+   me learn so much more about React, escpeically since I would be working on my project and, when I had questions, would then go and look to
+   see how the next step in learning React would help me solve those issues. Things that did not work well for me this time around was keeping
+   a consistent workflow going, as I have had a lot going on in all honesty. I think the best way for me to tackle that kind of issue next time
+   would be to set a good time each day to just sit down and learn the material that I need to go through while working on my project. A little bit at
+   a time helps.
