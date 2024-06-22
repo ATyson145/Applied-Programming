@@ -3,8 +3,12 @@ import random
 
 pygame.init()
 
+pygame.mixer.init()
+hit_sound = pygame.mixer.Sound('sounds/hit.wav')
+background_music = pygame.mixer.Sound('sounds/background.mp3')
+
 gadget_pair = 1
-ch = int(input("Enter your choice for gadget pair"))
+ch = int(input("Enter your choice for gadget pair (1 or 2): "))
 if ch == 1:
     gadget_pair = 1
 elif ch == 2:
@@ -13,7 +17,7 @@ elif ch == 2:
 #INITIALS 
 WIDTH, HEIGHT= 1000, 600
 wn = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Pong_But_Better")
+pygame.display.set_caption("Pong_Updated")
 run = True
 player_1 = player_2 = 0
 direction = [0, 1]
@@ -46,6 +50,10 @@ second_right_paddle_vel = second_left_paddle_vel = 0
 left_gadget = right_gadget = 0
 left_gadget_remaining = right_gadget_remaining = 5
 
+#Background music
+background_music.set_volume(0.25)
+background_music.play(-1)
+
 #main loop 
 while run:
     wn.fill(BLACK)
@@ -54,21 +62,21 @@ while run:
             run = False
         elif i.type == pygame.KEYDOWN:
             if i.key == pygame.K_UP:
-                right_paddle_vel = -0.9
-                second_right_paddle_vel = -0.9
+                right_paddle_vel = -1.2
+                second_right_paddle_vel = -1.2
             if i.key == pygame.K_DOWN:
-                right_paddle_vel = 0.9
-                second_right_paddle_vel = 0.9
+                right_paddle_vel = 1.2
+                second_right_paddle_vel = 1.2
             if i.key == pygame.K_RIGHT and right_gadget_remaining > 0:
                 right_gadget = 1 
             if i.key == pygame.K_LEFT and right_gadget_remaining > 0:
                 right_gadget = 2
             if i.key == pygame.K_w:
-                left_paddle_vel = -0.9
-                second_left_paddle_vel = -0.9
+                left_paddle_vel = -1.2
+                second_left_paddle_vel = -1.2
             if i.key == pygame.K_s:
-                left_paddle_vel = 0.9
-                second_left_paddle_vel = 0.9
+                left_paddle_vel = 1.2
+                second_left_paddle_vel = 1.2
             if i.key == pygame.K_d and left_gadget_remaining > 0:
                 left_gadget = 1
             if i.key == pygame.K_a and left_gadget_remaining > 0:
@@ -79,6 +87,20 @@ while run:
             right_paddle_vel = 0
             second_left_paddle_vel = 0
             left_paddle_vel = 0
+
+    # Ensure paddles do not overlap
+    if gadget_pair == 1:
+        if left_gadget == 2:
+            if second_left_paddle_y > left_paddle_y:
+                second_left_paddle_y = left_paddle_y - paddle_height
+            elif second_left_paddle_y < left_paddle_y:
+                second_left_paddle_y = left_paddle_y + paddle_height
+
+        if right_gadget == 2:
+            if second_right_paddle_y > right_paddle_y:
+                second_right_paddle_y = right_paddle_y - paddle_height
+            elif second_right_paddle_y < right_paddle_y:
+                second_right_paddle_y = right_paddle_y + paddle_height
              
 
     #ball's movement controls
@@ -96,25 +118,25 @@ while run:
         ang = random.choice(angle)
         if dir == 0:
             if ang == 0:
-                ball_vel_y, ball_vel_x = -1.4, 0.7
-                dummy_ball_vel_y, dummy_ball_vel_x = -1.4, 0.7
+                ball_vel_y, ball_vel_x = -1.0, 0.7
+                dummy_ball_vel_y, dummy_ball_vel_x = -1.0, 0.7
             if ang == 1:
                 ball_vel_y, ball_vel_x = -0.7, 0.7
                 dummy_ball_vel_y, dummy_ball_vel_x = -0.7, 0.7
             if ang == 2:
-                ball_vel_y, ball_vel_x = -0.7, 1.4
-                dummy_ball_vel_y, dummy_ball_vel_x = -0.7, 1.4
+                ball_vel_y, ball_vel_x = -0.7, 1.0
+                dummy_ball_vel_y, dummy_ball_vel_x = -0.7, 1.0
 
         if dir == 1:
             if ang == 0:
-                ball_vel_y, ball_vel_x = 1.4, 0.7
-                dummy_ball_vel_y, dummy_ball_vel_x = 1.4, 0.7
+                ball_vel_y, ball_vel_x = 1.0, 0.7
+                dummy_ball_vel_y, dummy_ball_vel_x = 1.0, 0.7
             if ang == 1:
                 ball_vel_y, ball_vel_x = 0.7, 0.7
                 dummy_ball_vel_y, dummy_ball_vel_x = 0.7, 0.7
             if ang == 2:
-                ball_vel_y, ball_vel_x = 0.7, 1.4
-                dummy_ball_vel_y, dummy_ball_vel_x = 0.7, 1.4
+                ball_vel_y, ball_vel_x = 0.7, 1.0
+                dummy_ball_vel_y, dummy_ball_vel_x = 0.7, 1.0
         ball_vel_x *= -1 
         dummy_ball_vel_x *= -1
 
@@ -128,26 +150,26 @@ while run:
         ang = random.choice(angle)
         if dir == 0:
             if ang == 0:
-                ball_vel_y, ball_vel_x = -1.4, 0.7
-                dummy_ball_vel_y, dummy_ball_vel_x = -1.4, 0.7
+                ball_vel_y, ball_vel_x = -1.0, 0.7
+                dummy_ball_vel_y, dummy_ball_vel_x = -1.0, 0.7
             if ang == 1:
                 ball_vel_y, ball_vel_x = -0.7, 0.7
                 dummy_ball_vel_y, dummy_ball_vel_x = -0.7, 0.7
             if ang == 2:
-                ball_vel_y, ball_vel_x = -0.7, 1.4
-                dummy_ball_vel_y, dummy_ball_vel_x = -0.7, 1.4
+                ball_vel_y, ball_vel_x = -0.7, 1.0
+                dummy_ball_vel_y, dummy_ball_vel_x = -0.7, 1.0
 
 
         if dir == 1:
             if ang == 0:
-                ball_vel_y, ball_vel_x = 1.4, 0.7
-                dummy_ball_vel_y, dummy_ball_vel_x = 1.4, 0.7
+                ball_vel_y, ball_vel_x = 1.0, 0.7
+                dummy_ball_vel_y, dummy_ball_vel_x = 1.0, 0.7
             if ang == 1:
                 ball_vel_y, ball_vel_x = 0.7, 0.7
                 dummy_ball_vel_y, dummy_ball_vel_x = 0.7, 0.7
             if ang == 2:
-                ball_vel_y, ball_vel_x = 0.7, 1.4
-                dummy_ball_vel_y, dummy_ball_vel_x = 0.7, 1.4
+                ball_vel_y, ball_vel_x = 0.7, 1.0
+                dummy_ball_vel_y, dummy_ball_vel_x = 0.7, 1.0
         
     #paddle's movement controls
     if left_paddle_y >= HEIGHT - paddle_height:
@@ -175,12 +197,14 @@ while run:
             if left_paddle_y <= ball_y <= left_paddle_y + paddle_height:
                 ball_x = left_paddle_x + paddle_width
                 dummy_ball_x = left_paddle_x + paddle_width
+                hit_sound.play()
                 ball_vel_x *= -1
                 dummy_ball_vel_x *= -1
 
     if second_left_paddle_y != left_paddle_y:
         if left_paddle_x <= ball_x <= left_paddle_x + paddle_width:
             if left_paddle_y <= ball_y <= left_paddle_y + paddle_height:
+                hit_sound.play()
                 ball_x = left_paddle_x + paddle_width
                 dummy_ball_x = left_paddle_x + paddle_width
                 ball_vel_x *= -1
@@ -188,6 +212,7 @@ while run:
 
         if second_left_paddle_x <= ball_x <= second_left_paddle_x + paddle_width:
             if second_left_paddle_y <= ball_y <= second_left_paddle_y + paddle_height:
+                hit_sound.play()
                 ball_x = left_paddle_x + paddle_width
                 dummy_ball_x = left_paddle_x + paddle_width
                 ball_vel_x *= -1
@@ -197,6 +222,7 @@ while run:
     if second_right_paddle_y == right_paddle_y:
         if right_paddle_x <= ball_x <= right_paddle_x + paddle_width:
             if right_paddle_y <= ball_y <= right_paddle_y + paddle_height:
+                hit_sound.play()
                 ball_x = right_paddle_x
                 dummy_ball_x = right_paddle_x
                 ball_vel_x *= -1
@@ -205,6 +231,7 @@ while run:
     if second_right_paddle_y != right_paddle_y:
         if right_paddle_x <= ball_x <= right_paddle_x + paddle_width:
                 if right_paddle_y <= ball_y <= right_paddle_y + paddle_height:
+                    hit_sound.play()
                     ball_x = right_paddle_x
                     dummy_ball_x = right_paddle_x
                     ball_vel_x *= -1
@@ -212,6 +239,7 @@ while run:
         
         if second_right_paddle_x <= ball_x <= second_right_paddle_x + paddle_width:
             if second_right_paddle_y <= ball_y <= second_right_paddle_y + paddle_height:
+                hit_sound.play()
                 ball_x = right_paddle_x
                 dummy_ball_x = right_paddle_x
                 ball_vel_x *= -1
@@ -227,6 +255,7 @@ while run:
                     dummy_ball_vel_x *= -3.5
                     left_gadget = 0
                     left_gadget_remaining -= 1
+                    hit_sound.play()
         elif left_gadget == 2:
             left_paddle_y = ball_y
             left_gadget = 0
@@ -240,6 +269,7 @@ while run:
                     dummy_ball_vel_x *= -3.5
                     right_gadget = 0
                     right_gadget_remaining -= 1
+                    hit_sound.play()
         
         elif right_gadget == 2:
             right_paddle_y = ball_y
@@ -258,6 +288,7 @@ while run:
                     dummy_ball_vel_y *= -1
                     left_gadget = 0
                     left_gadget_remaining -= 1
+                    hit_sound.play()
         
         elif left_gadget == 2:
             second_left_paddle_y = left_paddle_y + 200
@@ -274,6 +305,7 @@ while run:
                     dummy_ball_vel_y *= -1 
                     right_gadget = 0
                     right_gadget_remaining -= 1 
+                    hit_sound.play()
         
         elif right_gadget == 2:
             second_right_paddle_y = right_paddle_y + 200
@@ -292,13 +324,13 @@ while run:
 
     #scoreboard
     font = pygame.font.SysFont('callibri', 32)
-    score_1 = font.render("Player_1:" + str(player_1), True, WHITE)
+    score_1 = font.render("Player 1: " + str(player_1), True, WHITE)
     wn.blit(score_1, (25, 25))
-    score_2 = font.render("Player_2:" + str(player_2), True, WHITE)
+    score_2 = font.render("Player 2: " + str(player_2), True, WHITE)
     wn.blit(score_2, (825, 25))
-    gad_left_1 = font.render("Gad Left:" + str(left_gadget_remaining), True, WHITE)
+    gad_left_1 = font.render("GP Left: " + str(left_gadget_remaining), True, WHITE)
     wn.blit(gad_left_1, (25, 65))
-    gad_left_2 = font.render("Gad Left:" + str(right_gadget_remaining), True, WHITE)
+    gad_left_2 = font.render("GP Left: " + str(right_gadget_remaining), True, WHITE)
     wn.blit(gad_left_2, (825, 65))
 
 
@@ -320,18 +352,26 @@ while run:
     if right_gadget == 1:
         pygame.draw.circle(wn, WHITE, (right_paddle_x + 10, right_paddle_y + 10), 4)
 
+    for i in range(10, HEIGHT, 30):
+        pygame.draw.rect(wn, WHITE, (WIDTH/2 - 5, i, 10, 20))
+
     #endscreen
     winning_font = pygame.font.SysFont('callibri', 100)
-    if player_1 >= 100:
+    if player_1 >= 3:
+        player_1_win = True
         wn.fill(BLACK)
         endscreen = winning_font.render("PLAYER_1 WON!!!!", True, WHITE)
         wn.blit(endscreen, (200, 250))
+        run = False
+        
     
-    if player_2 >= 100:
+    elif player_2 >= 3:
+        player_2_win = True
         wn.fill(BLACK)
         endscreen = winning_font.render("PLAYER_2 WON!!!!", True, WHITE)
         wn.blit(endscreen, (200, 250))
-
+        run = False
+        
     pygame.display.update()
 
 

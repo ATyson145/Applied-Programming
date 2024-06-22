@@ -69,14 +69,18 @@ Record all CSE 310 work that you do on your individual module or the team projec
 
 Note that `IM` stands for Individual Module and `TP` stands for Team Project.
 
-| Date | Start Time | IM or TP | Description                          | Hours:Minutes |
-| ---- | ---------- | -------- | ------------------------------------ | ------------- |
-| 6/10 | 11:30      | IM       | Setting up software/Building project | 1:30          |
-| 6/10 | 10:38      | IM       | Building base of project             | 0:42          |
-| 6/11 | 1:22       | TP       | Team meeting                         | 1:39          |
-| 6/13 | 8:07       | IM       | Finishing base pong tutorial         | 2:07          |
-|      |            |          |                                      |               |
-|      |            |          |                                      |               |
+| Date | Start Time | IM or TP | Description                                         | Hours:Minutes |
+| ---- | ---------- | -------- | --------------------------------------------------- | ------------- |
+| 6/10 | 11:30      | IM       | Setting up software/Building project                | 1:30          |
+| 6/10 | 10:38      | IM       | Building base of project                            | 0:42          |
+| 6/11 | 1:22       | TP       | Team meeting                                        | 1:39          |
+| 6/13 | 8:07       | IM       | Finishing base pong tutorial                        | 2:07          |
+| 6/13 | 6:19       | IM       | Adding sounds                                       | 1:40          |
+| 6/17 | 10:15      | TP       | Team meeting                                        | 1:00          |
+| 6/19 | 2:05       | IM       | Trying to clean up file                             | 1:32          |
+| 6/20 | 6:15       | IM       | Going through tutorials for sound                   | 1:02          |
+| 6/21 | 11:20      | TP       | Adding comments and trying to refactor .script file | 1:25          |
+| 6/21 | 8:00       | IM       | Adding background music and fixing errors           | 1:43          |
 
 _Note: Add more rows as needed._
 
@@ -85,27 +89,32 @@ _Note: Add more rows as needed._
 This section should be filled out at the end of the Sprint and submitted.
 
 1. Put your GitHub link for your demonstration software here:
+   https://github.com/ATyson145/Applied-Programming/tree/main/Sprint4
 
 2. Put your YouTube link for your code walkthrough and demo video here:
-
+   https://www.youtube.com/watch?v=-Yfro9NXm7g
 3. Complete the following checklist by either indicating "Yes" or "No". If you indicate "No" then provide an explanation of why beneath the table.
 
 | Question                                                     | Response |
 | ------------------------------------------------------------ | -------- |
-| Are the links above public and working?                      |          |
-| Did you complete all the unique requirements for the module? |          |
-| Did you write at least 100 lines of code?                    |          |
-| Did you fully complete the readme.md file?                   |          |
-| Did you put the readme.md file in GitHub in the top folder?  |          |
+| Are the links above public and working?                      | Yes      |
+| Did you complete all the unique requirements for the module? | Yes      |
+| Did you write at least 100 lines of code?                    | Yes      |
+| Did you fully complete the readme.md file?                   | Yes      |
+| Did you put the readme.md file in GitHub in the top folder?  | Yes      |
 
 4. If you completed a Stretch Challenge (as shown in the Module Description document in Canvas) then describe what you did. If you did the Choose Your Own Adventure module, then you get to decide what qualifies as a Stretch Challenge.
-
+   I added a sounds and background music into the program.
 5. Did you change your selected module during the middle of the Sprint? If yes, then describe what you changed it to, when you changed it, and why you changed it.
-
+   No.
 6. Using the log above, fill in the total hours and minutes you spent on the individual module:
 
 | Activity          | Total Hours:Minutes |
 | ----------------- | ------------------- |
-| Individual Module |                     |
+| Individual Module | 10:06               |
 
 7. What strategies (behavioral and technical) worked well during this Sprint? What did not work well? List some possible ways that you can improve next Sprint.
+   The best strategy that I had was just letting me work as long as I wanted to while I had extra time. I flew by this project during the beginning of this sprint and it was because
+   I pushed myself to use the extra time that I had to build this project. The flaw of this strategy, however, is that when I felt that I didn't have much time for the project, I wouldn't
+   do it, pushing it off to the side until I felt that I had more time. A way to improve this would be to keep a consistent schedule, allowing me to work every day, while also keep working
+   while I do have extra time on my hands.
